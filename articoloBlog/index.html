@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Step per creare una pagina html">
+    <meta name="author" content="Mario Rossi">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <link rel="stylesheet" href="filesheet.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <header>
+        
+        <nav>
+           
+           
+            <img src="./assets/Epicode.png" alt="logo epicode" class="logo" >
+
+
+            <div class="searchbar">
+
+            <input type="text" id="barraricerca" name="barraricerca" class="barraricerca" placeholder="Inizia la tua ricerca . . .">
+            <img src="./assets/search.svg" alt="barra di ricerca" >
+
+            </div>
+            <div class="navigationmenu">
+
+            <img src="./assets/home.svg" alt="torna in homepage">
+            <a href="#">Home</a>
+            
+           <img src="./assets/article.svg" alt="sezione articoli">
+            <a href="#">Articoli</a>
+
+             <img src="./assets/job.svg" alt="lavora con noi">
+            <a href="#">Job</a>
+
+             </div>
+             
+
+        
+        </nav>
+    </header>
+    <h1 class="titolo"> Sviluppo di una pagina web- Blog Epicode</h1>
+    <main>
+         
+        <article class="article">
+            <h2>Come creare un template per i post </h2>
+            <h3>Articolo a cura di Mario Rossi 25/10/2020</h3>
+            <p>La prima cosa da fare è suddividere in blocchi logici la pagina,
+                identificando le parti comuni da applicare a tutte le pagine
+            </p>
+
+            
+                <ul>
+                    <p>Le varie aree saranno quindi suddivise in:  </p>
+           
+                <li><p>Contenuti di intestazione del tag <code>&lsaquo;header&rsaquo;</code>; </li></p>
+                <li><p> centrali variabili del tag <code>&lsaquo;main&rsaquo;</code>&lpar;contenuto centrale&rpar;;
+                </li></p>
+                <li><p>Contenuti di fine pagina comuni, da inserire nel tag <code>&lsaquo;footer&rsaquo;</code>;</li></p>
+                <li><p>Formattazione del codice;</li></p>
+                 </ul>
+
+                 <ul>
+                    <p>Il testo dell'articolo dovrà essere formattato per identificare tutte
+                        le parti da selezionare con i CSS. Perciò i passi saranno
+                    </p>
+                    <li><p>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato;</p></li>
+                    <li><p>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso;</p></li>
+                    <li><p>Applicare gli stili CSS;</p></li>
+                    <li>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale;</li>
+                 </ul>
+
+                 <h3>Diffusione del CSS</h3>
+                 <table>
+                    
+                    <thead>
+                        
+                        <tr>
+                            <th>Anno</th>
+                            <th>% di utilizzo</th>
+                            <th>Supporto Browser</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+
+                    <tr>
+                        <td>2000</td>
+                        <td>20%</td>
+                        <td>17%</td>
+                    </tr>
+
+                    <tr>
+                        <td>2002</td>
+                        <td>35%</td>
+                        <td>22%</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>45%</td>
+                        <td>42%</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>80%</td>
+                        <td>51%</td>
+                    </tr>
+
+                    <tr>
+                        <td>2012</td>
+                        <td>100%</td>
+                        <td>76%</td>
+                    </tr>
+                </tbody>
+                 </table>
+                
+                 <p>Un test di validazione potrà essere fatto tramite il <a href="#" target="_blank">TOOL ONLINE.</a>Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri 
+                developers come loro: </p>
+                <video width="100%" height="240" controls>
+                    <source src="./assets/samplevideo.mp4" type="video/mp4" >
+                    
+                    Your browser does not support the video tag.
+                  </video>
+        </article>
+
+        <aside class="aside">
+            <h2>Articoli Correlati</h2>
+            <div class="articolocorrelato">
+                <h3>Validare il codice HTML</h3>
+                <div class="testoconimmaginearticolo">
+                <img src="./assets/html.jpeg" alt="html" width="100px" height="100px">
+                <div class="testoarticolo">
+                <p>Categoria:<strong>develop</strong>
+                </p>
+                <p>Data:18/9/2020</p>
+            </div>
+            </div>
+            </div>
+
+            <div class="articolocorrelato">
+                <h3>Correggere la Sintassi</h3>
+                <div class="testoconimmaginearticolo">
+                <img src="./assets/sintassi.jpeg" alt="sintassi html" width="100px" height="100px">
+                <div class="testoarticolo">
+                <p>Categoria:<strong>develop</strong>
+                </p>
+                <p>Data:16/9/2020</p>
+            </div>
+            </div>
+            </div>
+
+            <div class="articolocorrelato">
+                <h3>Meno kb nella pagina</h3>
+                <div class="testoconimmaginearticolo">
+                <img src="./assets/kilobyte.jpeg" alt="sintassi html" width="100px" height="100px">
+                <div class="testoarticolo">
+                <p>Categoria:<strong>Ottimizzazione</strong>
+                </p>
+                <p>Data:30/9/2020</p>
+
+                
+            </div>
+            </div>
+            </div>
+
+            <div class="articolocorrelato">
+                <h3>Meno kb nella pagina</h3>
+                <div class="testoconimmaginearticolo">
+                <img src="./assets/kilobyte.jpeg" alt="sintassi html" width="100px" height="100px">
+                <div class="testoarticolo">
+                <p>Categoria:<strong>Ottimizzazione</strong>
+                </p>
+                <p>Data:30/9/2020</p>
+
+                
+            </div>
+            </div>
+            </div>
+
+            <div class="articolocorrelato">
+                <h3>Meno kb nella pagina</h3>
+                <div class="testoconimmaginearticolo">
+                <img src="./assets/kilobyte.jpeg" alt="sintassi html" width="100px" height="100px">
+                <div class="testoarticolo">
+                <p>Categoria:<strong>Ottimizzazione</strong>
+                </p>
+                <p>Data:30/9/2020</p>
+
+                
+            </div>
+            </div>
+            </div>
+
+            <div class="articolocorrelato">
+                <h3>mandaci una mail </h3>
+                <div class="testoconimmaginearticolo">
+                <img src="./assets/mail.jpeg" alt="mail" width="100px" height="100px">
+                <div class="testoarticolo">
+                    <a href="mailto:info@epicode.school">info@epicode.school</a>
+                
+            </div>
+            </div>
+            </div>
+
+            
+            
+            
+        </aside>
+
+       
+        
+
+    </main>
+
+    <br>
+    
+    <footer>
+       
+        <div class="footer1">
+            <h3>Vuoi rimanere aggiornato su altre novità del blog?
+                Iscriviti:
+            </h3>
+            
+                <form action="action.php">
+              
+                  
+                  <input type="text" id="fname" name="Nome" placeholder="Nome...">
+              
+                
+                  <input type="text" id="lname" name="Cognome" placeholder="Cognome...">
+              
+              
+                
+                  <textarea id="subject" name="subject" placeholder="Scrivi qui..."></textarea>
+              
+                  <input type="submit" value="Invio">
+              
+                </form>
+              
+
+        </div>
+
+        <div class="footer2">
+            <h3>Testata online di Mario Rossi</h3><p>prot.213/2018, via Luigi Einaudi 2, Milano</p>
+        </div>
+
+        <div class="footer3">
+            <h3>(Copiryght e info)</h3>
+            <p>Blog Epicode 2021</p>
+        </div>
+
+    </footer>
+</body>
+</html>
